@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos HTML</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>Este video está hospedado no meu proprio servidor</p>
+    <video controls poster="imagens/cafe.png" width="600px" loop autoplay>
+        <source src="midias/video-café.mp4" type="video/mp4">
+        <source src="midias/video-café.m4v" type="video/mp4">
+        <source src="midias/video-café.webm" type="video/webm">
+        <source src="midias/video-café.ogv" type="video/ogg">
+        <p>Seu navegador não tem compatibilidade com reprodução de videos</p>
+        <!-- a ordem dos source impacta a sequencia -->
+        <!-- caso eu tivesse esses arquivos de video hospedado aqui no meu server se algum navegador não fosse compativel com um dos formatos carregaria o proximo -->
+    </video>
+    <!-- o chrome é compativel com a maioria dos tipos de arquivo -->
+     <!-- uma boa ferramenta de conversão de video é o handbrake -->
+
+     <h1>Inserindo vídeos do Youtube</h1>
+     <iframe width="600" height="315" src="https://www.youtube.com/embed/RUDJlL9-0Ys?si=IEmrfK0hsbN-iZhK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+     <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/207HLdUVIdZEUMRX15BIwD?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+</body>
+</html>

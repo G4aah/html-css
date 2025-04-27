@@ -1,0 +1,144 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "idroid";
+    src: url(fontes/idroid.otf) format("opentype");
+}
+
+* {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #84E1AD;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #39CD7B, #1A5C38);
+    color: white;
+    height: 200px;
+    padding: 20px 10px 0px 10px;
+    box-shadow: 0px 2px 9px 7px #00000056;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header > h1 {
+    text-shadow: 2px 1px 1px #00000070;
+}
+
+header > p {
+    text-shadow: 2px 1px 1px #00000070;
+}
+
+nav {
+    align-self: flex-start;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 5px;
+    transition: 1s;
+}
+
+nav > a:hover {
+    color: #C5EBD6;
+    text-decoration: underline;
+}
+
+main {
+    width: 800px;
+    min-width: 400px;
+    padding: 30px 15px;
+    margin: auto;
+    background-color: white;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0px 7px 8px 2px #00000056;
+}
+
+main > h1 {
+    color: #1A5C38;
+    font-size: 2em;
+}
+
+h2 {
+    color: #1A5C38;
+    padding: 5px;
+    background-image: linear-gradient(to left, white, #C5EBD6);
+}
+
+.decorado {
+    font-family: idroid, sans-serif;
+}
+
+main > p {
+    margin: 10px;
+    text-align: justify;
+}
+
+strong {
+    color: #1A5C38;
+}
+
+.link {
+    color: #1A5C38;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 1s;
+}
+
+.link::before {
+    content: "\1F517";
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: #36c777;
+}
+
+img {
+    margin: auto;
+    display: block;
+}
+
+aside {
+    background-color: #C5EBD6;
+    overflow: hidden;
+    margin: 20px 6px;
+    box-shadow: 4px 4px 8px #00000033;
+    border-radius: 10px;
+}
+
+aside > h1 {
+    background-color: #2FA866;
+    color: white;
+    font-size: 1.4em;
+    padding: 10px;
+}
+
+section {
+    padding: 18px 12px;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #1A5C38;
+    color: #84E1AD;
+    text-align: center;
+    padding: 5px;
+}
+
+footer > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 1s;
+}
+
+footer > a:hover {
+    color: #84E1AD;
+}
