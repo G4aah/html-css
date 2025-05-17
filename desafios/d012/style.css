@@ -47,3 +47,24 @@ section p {
     padding-bottom: 20px;
 }
 
+.paralax {
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.paralax p {
+    color: white;
+    padding: 5px;
+    background-color: #000000a8;
+    width: 250px;
+}
+
+#backg1 {
+    background-image: url(imagens/background001.jpg);
+}
+
+#backg2 {
+    background-image: url(imagens/background002.jpg);
+}
