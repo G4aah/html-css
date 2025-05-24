@@ -68,3 +68,20 @@ section p {
 #backg2 {
     background-image: url(imagens/background002.jpg);
 }
+
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
